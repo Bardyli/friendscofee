@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scroll</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
+    
+    <!-- styles -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header id="home">
+      <nav id="nav">
+        <div class="nav-center">
+          <div class="nav-header">
+            <button class="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <div class="links-container">
+            <ul class="links">
+              <li>
+                <a href="#ballina" class="scroll-link">ballina</a>
+              </li>
+              <li>
+                <a href="#friends" class="scroll-link">Friends</a>
+              </li>
+              <li>
+                <a href="#menu" class="scroll-link">Menu</a>
+              </li>
+              <li>
+                <a href="#kontakti" class="scroll-link">Kontakti</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div id="ballina" class="banner">
+        <div class="container">
+          <h1>Friend's Coffee</h1>
+                    <h2>Oret e hapjes</h2>
+                    <h3>E Hene - E Shtune: 7:00 - 23:00</h3>
+                    <h3>E Diel: Mbyllur</h3>
+          <a class="scroll-link btn btn-white modal-btn">
+            Na Gjej
+          </a>
+        </div>
+        <!-- MODALI -->
+        <div class="modal-overlay">
+          <div class="modal-container">
+            <div class="gogle">
+              <div class="mapouter"><div class="gmap_canvas"><iframe src="https://maps.google.com/maps?q=ukshin%20kovaqica&amp;t=k&amp;z=20&amp;ie=UTF8&amp;iwloc=&amp;output=embed" id="gmap_canvas" frameborder="0" scrolling="no" style="width: 600px; height: 400px;"></iframe><a href="https://fnfmod.net/" style="display:none">fnf mods</a><style>.mapouter{position:relative;text-align:right;height:400px;width:600px;}</style><a href="https://www.googlemapsiframegenerator.com" style="display:none">Google Maps Iframe Generator</a><style>.gmap_canvas{overflow:hidden;background:none!important;height:400px;width:600px;}</style></div></div>
+            </div>
+            <button class="close-btn">
+              <i class="fas fa-times"></i>
+            </button>
+          </div>
+        </div>
+        <!-- FUNDI I MODALIT -->
+      </div>
+    </header>
+    <!-- about -->
+     <section id="friends" class="banner1">
+      <div class="friends" style="position: absolute;">
+        <img src="images/friends/logo.png" class="logo">
+        <h2>Rreth Neve</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia quidem similique quae nemo, incidunt quas? Repellat eum laborum exercitationem culpa</p>
+      </div>
+       <!-- <div class="friends">
+         <img class="kafja2" src="images/friends/kafja2.jpg"> 
+        <img class="logo" src="images/friends/logo.png">
+        <div class="textover2">
+          <h2>Rreth Neve</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>  -->
+    </section> 
+    <section class="menu" id="menu">
+      <!-- title -->
+      <div class="title">
+        <h2>Menyja jonë</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="btn-container">
+
+      </div>
+      <!-- menu items -->
+      <div class="section-center">
+        <!-- single item -->
+        <article class="menu-item">
+          <img src="./menu-item.jpeg" alt="menu item" class="photo" />
+          <div class="item-info">
+            <h1 class="header">
+              <h4>buttermilk pancakes</h4>
+              <h4 class="price">$15</h4>
+            </h1>
+            <p class="item-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repudiandae, sint quam. Et reprehenderit fugiat nesciunt inventore
+              laboriosam excepturi! Quo, officia.
+            </p>
+          </div>
+        </article>
+        <!-- end of single item -->
+      </div>
+    </section>
+    <footer id="kontakti" class="section">
+      <div class="kontakti">
+        <p>copyright &copy; Friends <span id="date"></span></p>
+        <p>+38300000000</p>
+        <p>friends@gmail.com</p>
+        <a href="https://www.instagram.com/friendshouselounge/" target="_blank"><img class="social" src="images/socials/ig.png"></a>
+        <a href="https://www.facebook.com/Friendscoffee02" target="_blank"><img class="fb" src="images/socials/fb.png"></a>
+      </div>
+    </footer>
+    <a href="#ballina" class="scroll-link top-link">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+    <!-- javascript -->
+    <script src="./js/app.js"></script>
+  </body>
+</html>
